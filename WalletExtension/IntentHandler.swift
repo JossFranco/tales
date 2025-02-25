@@ -4,7 +4,6 @@
 
 import D1
 
-
 /// Non UI Apple Wallet Extension  for available cards retrieval.
 class IntentHandler: D1IssuerProvisioningExtensionHandler {
 
