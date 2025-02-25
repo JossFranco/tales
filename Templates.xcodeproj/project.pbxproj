@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -63,6 +63,7 @@
 		6DDDCE662A97753300B34B65 /* D1CoreApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDDCE542A97753300B34B65 /* D1CoreApi.swift */; };
 		6DDDCE682A97753300B34B65 /* D1ModuleConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDDCE562A97753300B34B65 /* D1ModuleConnector.swift */; };
 		6DDDCE6C2A9B93BF00B34B65 /* D1Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DDDCE6B2A9B93BF00B34B65 /* D1Configuration.plist */; };
+		757D82A72D56CCD700D92B72 /* D1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757D82982D56CC3B00D92B72 /* D1.xcframework */; };
 		9AC8ED1A2DE3D116A84CBAE2 /* Pods_WalletExtensionUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1F634F4A4B92D45769FDA9 /* Pods_WalletExtensionUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -175,6 +176,18 @@
 		6DDDCE542A97753300B34B65 /* D1CoreApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D1CoreApi.swift; sourceTree = "<group>"; };
 		6DDDCE562A97753300B34B65 /* D1ModuleConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D1ModuleConnector.swift; sourceTree = "<group>"; };
 		6DDDCE6B2A9B93BF00B34B65 /* D1Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = D1Configuration.plist; sourceTree = "<group>"; };
+		757D82982D56CC3B00D92B72 /* D1.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; path = D1.xcframework; sourceTree = "<group>"; };
+		757D82992D56CC3B00D92B72 /* d1-libs-debug.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d1-libs-debug.podspec"; sourceTree = "<group>"; };
+		757D829A2D56CC3B00D92B72 /* D1Core.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; path = D1Core.xcframework; sourceTree = "<group>"; };
+		757D829B2D56CC3B00D92B72 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		757D829C2D56CC3B00D92B72 /* SecureLogAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SecureLogAPI.xcframework; sourceTree = "<group>"; };
+		757D829D2D56CC3B00D92B72 /* TPCSDKSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; path = TPCSDKSwift.xcframework; sourceTree = "<group>"; };
+		757D829F2D56CC3B00D92B72 /* D1.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; path = D1.xcframework; sourceTree = "<group>"; };
+		757D82A02D56CC3B00D92B72 /* d1-libs-release.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "d1-libs-release.podspec"; sourceTree = "<group>"; };
+		757D82A12D56CC3B00D92B72 /* D1Core.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; path = D1Core.xcframework; sourceTree = "<group>"; };
+		757D82A22D56CC3B00D92B72 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		757D82A32D56CC3B00D92B72 /* SecureLogAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SecureLogAPI.xcframework; sourceTree = "<group>"; };
+		757D82A42D56CC3B00D92B72 /* TPCSDKSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2T9J7M62ML:Thales DIS France SAS"; lastKnownFileType = wrapper.xcframework; path = TPCSDKSwift.xcframework; sourceTree = "<group>"; };
 		883DBB09D9B950924D905CD7 /* Pods_WalletExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F890951E94A1F23A09B440 /* Pods-Templates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates.debug.xcconfig"; path = "Target Support Files/Pods-Templates/Pods-Templates.debug.xcconfig"; sourceTree = "<group>"; };
 		9807120DAD3D18AD2F126A6F /* Pods-WalletExtensionUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletExtensionUI.release.xcconfig"; path = "Target Support Files/Pods-WalletExtensionUI/Pods-WalletExtensionUI.release.xcconfig"; sourceTree = "<group>"; };
@@ -205,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757D82A72D56CCD700D92B72 /* D1.xcframework in Frameworks */,
 				1769860332ED9F5709486343 /* Pods_Templates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +423,7 @@
 		6DD6518C29B74844002F6F5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				757D82A62D56CC3B00D92B72 /* Libs */,
 				6D229C8D29B75E1B0011B606 /* VirtualCard.framework */,
 				6DD6518D29B74844002F6F5B /* Core.framework */,
 				1CFC09D07295A9C89A81C4E2 /* Pods_Templates.framework */,
@@ -490,6 +505,41 @@
 				6DDDCE562A97753300B34B65 /* D1ModuleConnector.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		757D829E2D56CC3B00D92B72 /* d1-libs-debug */ = {
+			isa = PBXGroup;
+			children = (
+				757D82982D56CC3B00D92B72 /* D1.xcframework */,
+				757D82992D56CC3B00D92B72 /* d1-libs-debug.podspec */,
+				757D829A2D56CC3B00D92B72 /* D1Core.xcframework */,
+				757D829B2D56CC3B00D92B72 /* package.json */,
+				757D829C2D56CC3B00D92B72 /* SecureLogAPI.xcframework */,
+				757D829D2D56CC3B00D92B72 /* TPCSDKSwift.xcframework */,
+			);
+			path = "d1-libs-debug";
+			sourceTree = "<group>";
+		};
+		757D82A52D56CC3B00D92B72 /* d1-libs-release */ = {
+			isa = PBXGroup;
+			children = (
+				757D829F2D56CC3B00D92B72 /* D1.xcframework */,
+				757D82A02D56CC3B00D92B72 /* d1-libs-release.podspec */,
+				757D82A12D56CC3B00D92B72 /* D1Core.xcframework */,
+				757D82A22D56CC3B00D92B72 /* package.json */,
+				757D82A32D56CC3B00D92B72 /* SecureLogAPI.xcframework */,
+				757D82A42D56CC3B00D92B72 /* TPCSDKSwift.xcframework */,
+			);
+			path = "d1-libs-release";
+			sourceTree = "<group>";
+		};
+		757D82A62D56CC3B00D92B72 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				757D829E2D56CC3B00D92B72 /* d1-libs-debug */,
+				757D82A52D56CC3B00D92B72 /* d1-libs-release */,
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 		ECF3351FF5068492590EE8EE /* Pods */ = {
@@ -589,7 +639,7 @@
 				};
 			};
 			buildConfigurationList = 6DD6515229B74749002F6F5B /* Build configuration list for PBXProject "Templates" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -824,7 +874,7 @@
 				CODE_SIGN_ENTITLEMENTS = WalletExtensionUI/WalletExtensionUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LMY4YJ949Q;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WalletExtensionUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WalletExtensionUI;
@@ -852,7 +902,7 @@
 				CODE_SIGN_ENTITLEMENTS = WalletExtensionUI/WalletExtensionUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LMY4YJ949Q;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WalletExtensionUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WalletExtensionUI;
@@ -979,13 +1029,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1033,12 +1084,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1054,7 +1106,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Templates/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MX382M2634;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Templates/Info.plist;
@@ -1064,6 +1116,7 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1072,7 +1125,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thalesgroup.d1.Templates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1088,7 +1141,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Templates/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MX382M2634;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Templates/Info.plist;
@@ -1098,6 +1151,7 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1106,7 +1160,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thalesgroup.d1.Templates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
