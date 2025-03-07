@@ -110,7 +110,7 @@ private class D1PushModuleConnector: D1ModuleConnector {
     func getConfiguration() -> [D1.ConfigParams] {
         // There is no extra configuration needed for this module.
         let card = ConfigParams.CardParams(cardID: D1Configuration.CARD_ID, cardArt: UIImage(named: "card_art")!, productTitle: "Product Title")
-        return [ConfigParams.cardConfig(), ConfigParams.walletExtensionConfig(cardParamsList: [card], appGroupID: "group.com.thalesgroup.d1.Templates")]
+        return [ConfigParams.cardConfig(), ConfigParams.walletExtensionConfig(cardParamsList: [card], appGroupID: "group.com.thalesgrou.d1.Templates")]
     }
     
     func getModuleId() -> Module {

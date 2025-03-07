@@ -7,7 +7,7 @@
 <!--    <true/>-->
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.thalesgroup.d1.Templates</string>
+		<string>group.com.thalesgrou.d1.Templates</string>
 	</array>
 </dict>
 </plist>

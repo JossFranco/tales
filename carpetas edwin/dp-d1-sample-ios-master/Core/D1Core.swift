@@ -151,7 +151,7 @@ extension D1Core: D1CoreApi {
         }
         let query: [String: Any] = [kSecClass as String: kSecClassGenericPassword,
             kSecAttrService as String: "IssuerAppService",
-            kSecAttrAccessGroup as String: "group.com.thalesgroup.d1.Templates",
+            kSecAttrAccessGroup as String: "group.com.thalesgrou.d1.Templates",
             kSecAttrAccount as String: key]
         var addQuery = query
         addQuery[kSecValueData as String] = valueData

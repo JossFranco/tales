@@ -127,7 +127,7 @@ class IntentViewController: UIViewController, D1IssuerProvisioningExtensionAutho
     private func loadFromKeychain(key: String) -> String? {
         let getQuery: [String: Any] = [kSecClass as String: kSecClassGenericPassword,
             kSecAttrService as String: "IssuerAppService",
-            kSecAttrAccessGroup as String: "group.com.thalesgroup.d1.Templates",
+            kSecAttrAccessGroup as String: "group.com.thalesgrou.d1.Templates",
             kSecAttrAccount as String: key,
             kSecReturnData as String: true]
         var item: AnyObject?
